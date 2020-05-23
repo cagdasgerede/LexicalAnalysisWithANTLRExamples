@@ -1,0 +1,10 @@
+antlr4 Hello.g4
+javac *.java
+grun Hello r -tokens
+grun Hello r -tree
+grun Hello r -gui
+
+grun Hello r -tokens input.txt
+grun Hello tokens -tokens .\input.txt
+
+For more: grun Hello

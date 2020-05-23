@@ -1,0 +1,1 @@
+val /* this is comment */ = origin + rate * interest // rate should not be zero
